@@ -10335,6 +10335,70 @@
       ]
     }
   },
+  "editorial_budget": 8,
+  "editorial": [
+    {
+      "material": "短时段导引",
+      "all": [
+        "现场时段"
+      ],
+      "cost": 4
+    },
+    {
+      "material": "联系人说明",
+      "all": [
+        "对象"
+      ],
+      "cost": 4
+    },
+    {
+      "material": "办理组合卡",
+      "all": [
+        "现场时段",
+        "对象"
+      ],
+      "cost": 5
+    },
+    {
+      "material": "语言提示",
+      "all": [
+        "语言"
+      ],
+      "cost": 3
+    },
+    {
+      "material": "远程入口",
+      "all": [
+        "线上时段"
+      ],
+      "cost": 4
+    }
+  ],
+  "editorial_floors": {
+    "北": 0.19,
+    "南": 0.22,
+    "西": 0.16
+  },
+  "joint_review": [
+    {
+      "session": "5-14",
+      "active_from": 5,
+      "agreement": [
+        "语言"
+      ],
+      "unresolved": [
+        "线上时段"
+      ]
+    },
+    {
+      "session": "5-12",
+      "active_from": 5,
+      "agreement": [],
+      "unresolved": [
+        "对象"
+      ]
+    }
+  ],
   "shift": [
     {
       "reviewer": "T1",
