@@ -1,0 +1,2963 @@
+{
+  "contract": {
+    "n_frame_rows": 310,
+    "n_sessions": 275,
+    "n_usable_sessions": 240,
+    "taxonomy_versions": [
+      1,
+      2
+    ],
+    "mature_periods": [
+      1,
+      2,
+      3
+    ],
+    "holdout_periods": [
+      4,
+      5
+    ],
+    "holdout_households": [
+      "F002",
+      "F007",
+      "F012",
+      "F017",
+      "F022",
+      "F027",
+      "F032",
+      "F037",
+      "F042",
+      "F047",
+      "F052",
+      "F057"
+    ]
+  },
+  "session_facts_sample": [
+    {
+      "session": "5-12",
+      "period": 5,
+      "household": "F012",
+      "site": "北",
+      "language": "双语",
+      "consent": true,
+      "channels": [
+        "回访",
+        "站点"
+      ],
+      "clauses": [
+        "暂未提出其他困难"
+      ],
+      "taxonomy": 2,
+      "state": "定稿",
+      "confirmed": [],
+      "unresolved": [
+        "对象"
+      ],
+      "evidence": [
+        "5-12/0",
+        "5-12/1",
+        "review:5-12:定稿",
+        "joint_review:5-12"
+      ]
+    },
+    {
+      "session": "5-14",
+      "period": 5,
+      "household": "F014",
+      "site": "西",
+      "language": "普通",
+      "consent": true,
+      "channels": [
+        "回访"
+      ],
+      "clauses": [
+        "回执有些词看不懂",
+        "线上预约排不到合适时间"
+      ],
+      "taxonomy": 2,
+      "state": "待合议",
+      "confirmed": [
+        "语言"
+      ],
+      "unresolved": [
+        "线上时段"
+      ],
+      "evidence": [
+        "5-14/0",
+        "review:5-14:待合议",
+        "joint_review:5-14"
+      ]
+    }
+  ],
+  "briefings": [
+    {
+      "period": 1,
+      "taxonomy": 1,
+      "active_themes": [
+        "时段",
+        "对象",
+        "地点",
+        "语言"
+      ],
+      "withdrawn": [],
+      "frame_weight_total": 113.0,
+      "responded_weight": 104.6,
+      "nonresponse_weight": 8.400000000000006,
+      "usable_weight": 91.1,
+      "excluded_no_consent_weight": 13.5,
+      "joint_distribution": {
+        "(无主题)": 0.3863885839736554,
+        "地点|时段": 0.13721185510428102,
+        "语言": 0.1185510428100988,
+        "对象|语言": 0.08232711306256861,
+        "地点": 0.0592755214050494,
+        "时段": 0.0592755214050494,
+        "地点|对象": 0.054884742041712405,
+        "对象": 0.04720087815587267,
+        "地点|语言": 0.027442371020856202,
+        "时段|语言": 0.027442371020856202
+      },
+      "marginal_prevalence": {
+        "时段": 0.22392974753018666,
+        "对象": 0.1844127332601537,
+        "地点": 0.278814489571899,
+        "语言": 0.25576289791437984
+      },
+      "marginal_sum": 0.9429198682766191,
+      "pending_weight": 10.3,
+      "pending_rate": 0.11306256860592756,
+      "notes": [
+        "各主题边际占比来自联合分布，存在多主题家庭，不可逐栏相加；本期边际占比之和=0.943（等于 1 仅当每户至多一个主题，偏离 1 即存在联合/重复计数效应）。",
+        "未回访加权占框=0.074，未回访不等于确证无障碍；未同意摘要未参与任何占比。"
+      ]
+    },
+    {
+      "period": 2,
+      "taxonomy": 1,
+      "active_themes": [
+        "时段",
+        "对象",
+        "地点",
+        "语言"
+      ],
+      "withdrawn": [],
+      "frame_weight_total": 113.0,
+      "responded_weight": 104.6,
+      "nonresponse_weight": 8.400000000000006,
+      "usable_weight": 91.1,
+      "excluded_no_consent_weight": 13.5,
+      "joint_distribution": {
+        "(无主题)": 0.3863885839736554,
+        "对象|时段": 0.13721185510428102,
+        "地点": 0.10647639956092206,
+        "对象|语言": 0.08232711306256861,
+        "对象": 0.07903402854006587,
+        "语言": 0.0592755214050494,
+        "地点|语言": 0.054884742041712405,
+        "时段": 0.03951701427003294,
+        "地点|对象": 0.027442371020856202,
+        "地点|时段": 0.027442371020856202
+      },
+      "marginal_prevalence": {
+        "时段": 0.20417124039517018,
+        "对象": 0.32601536772777173,
+        "地点": 0.21624588364434688,
+        "语言": 0.1964873765093304
+      },
+      "marginal_sum": 0.9429198682766193,
+      "pending_weight": 10.3,
+      "pending_rate": 0.11306256860592756,
+      "notes": [
+        "各主题边际占比来自联合分布，存在多主题家庭，不可逐栏相加；本期边际占比之和=0.943（等于 1 仅当每户至多一个主题，偏离 1 即存在联合/重复计数效应）。",
+        "未回访加权占框=0.074，未回访不等于确证无障碍；未同意摘要未参与任何占比。"
+      ]
+    },
+    {
+      "period": 3,
+      "taxonomy": 1,
+      "active_themes": [
+        "时段",
+        "对象",
+        "地点",
+        "语言"
+      ],
+      "withdrawn": [],
+      "frame_weight_total": 113.0,
+      "responded_weight": 104.6,
+      "nonresponse_weight": 8.400000000000006,
+      "usable_weight": 91.1,
+      "excluded_no_consent_weight": 13.5,
+      "joint_distribution": {
+        "(无主题)": 0.3863885839736554,
+        "地点|时段": 0.10976948408342481,
+        "地点": 0.10647639956092206,
+        "对象": 0.09879253567508234,
+        "时段": 0.0592755214050494,
+        "地点|语言": 0.054884742041712405,
+        "对象|时段": 0.054884742041712405,
+        "对象|语言": 0.054884742041712405,
+        "地点|对象": 0.027442371020856202,
+        "时段|语言": 0.027442371020856202,
+        "语言": 0.01975850713501647
+      },
+      "marginal_prevalence": {
+        "时段": 0.25137211855104286,
+        "对象": 0.23600439077936336,
+        "地点": 0.2985729967069155,
+        "语言": 0.1569703622392975
+      },
+      "marginal_sum": 0.9429198682766192,
+      "pending_weight": 10.3,
+      "pending_rate": 0.11306256860592756,
+      "notes": [
+        "各主题边际占比来自联合分布，存在多主题家庭，不可逐栏相加；本期边际占比之和=0.943（等于 1 仅当每户至多一个主题，偏离 1 即存在联合/重复计数效应）。",
+        "未回访加权占框=0.074，未回访不等于确证无障碍；未同意摘要未参与任何占比。"
+      ]
+    },
+    {
+      "period": 4,
+      "taxonomy": 2,
+      "active_themes": [
+        "对象",
+        "地点",
+        "语言",
+        "线上时段",
+        "现场时段"
+      ],
+      "withdrawn": [],
+      "frame_weight_total": 113.0,
+      "responded_weight": 104.6,
+      "nonresponse_weight": 8.400000000000006,
+      "usable_weight": 91.1,
+      "excluded_no_consent_weight": 13.5,
+      "joint_distribution": {
+        "(无主题)": 0.3863885839736554,
+        "现场时段|语言": 0.10976948408342481,
+        "地点": 0.07903402854006587,
+        "语言": 0.07903402854006587,
+        "线上时段": 0.0592755214050494,
+        "地点|现场时段": 0.054884742041712405,
+        "对象|线上时段": 0.054884742041712405,
+        "对象": 0.03951701427003294,
+        "地点|线上时段": 0.027442371020856202,
+        "对象|现场时段": 0.027442371020856202,
+        "现场时段": 0.027442371020856202,
+        "现场时段|线上时段": 0.027442371020856202,
+        "线上时段|语言": 0.027442371020856202
+      },
+      "marginal_prevalence": {
+        "对象": 0.12184412733260155,
+        "地点": 0.16136114160263448,
+        "语言": 0.21624588364434688,
+        "线上时段": 0.1964873765093304,
+        "现场时段": 0.24698133918770585
+      },
+      "marginal_sum": 0.9429198682766191,
+      "pending_weight": 10.3,
+      "pending_rate": 0.11306256860592756,
+      "notes": [
+        "各主题边际占比来自联合分布，存在多主题家庭，不可逐栏相加；本期边际占比之和=0.943（等于 1 仅当每户至多一个主题，偏离 1 即存在联合/重复计数效应）。",
+        "未回访加权占框=0.074，未回访不等于确证无障碍；未同意摘要未参与任何占比。"
+      ]
+    },
+    {
+      "period": 5,
+      "taxonomy": 2,
+      "active_themes": [
+        "对象",
+        "语言",
+        "线上时段",
+        "现场时段"
+      ],
+      "withdrawn": [
+        "地点"
+      ],
+      "frame_weight_total": 113.0,
+      "responded_weight": 104.6,
+      "nonresponse_weight": 8.400000000000006,
+      "usable_weight": 91.1,
+      "excluded_no_consent_weight": 13.5,
+      "joint_distribution": {
+        "(无主题)": 0.4654226125137212,
+        "语言": 0.17343578485181121,
+        "现场时段": 0.07464324917672888,
+        "对象|现场时段": 0.054884742041712405,
+        "对象|线上时段": 0.054884742041712405,
+        "现场时段|线上时段": 0.054884742041712405,
+        "对象": 0.03951701427003294,
+        "现场时段|语言": 0.027442371020856202,
+        "线上时段": 0.027442371020856202,
+        "线上时段|语言": 0.027442371020856202
+      },
+      "marginal_prevalence": {
+        "对象": 0.14928649835345775,
+        "语言": 0.2283205268935236,
+        "线上时段": 0.16465422612513722,
+        "现场时段": 0.2118551042810099
+      },
+      "marginal_sum": 0.7541163556531285,
+      "pending_weight": 10.3,
+      "pending_rate": 0.11306256860592756,
+      "notes": [
+        "各主题边际占比来自联合分布，存在多主题家庭，不可逐栏相加；本期边际占比之和=0.754（等于 1 仅当每户至多一个主题，偏离 1 即存在联合/重复计数效应）。",
+        "主题 地点 自第 5 期起撤回，不进入本期口径；已采用材料的历史依据仍可查，未发任务按新口径核定。",
+        "旧主题'时段'为一对多关系（线上时段、现场时段）：无法区分子标签的旧标签保持未决，未向两栏各记一份。",
+        "未回访加权占框=0.074，未回访不等于确证无障碍；未同意摘要未参与任何占比。"
+      ]
+    }
+  ],
+  "holdout_evaluation": {
+    "splits": [
+      {
+        "name": "household_holdout_v1",
+        "scope_note": "整户留出：排除 ['F002', 'F007', 'F012', 'F017', 'F022', 'F027', 'F032', 'F037', 'F042', 'F047', 'F052', 'F057']；仅用词典 v1 对应的第 [1, 2, 3] 期；训练与测试家庭互不重叠。",
+        "n_train": 132,
+        "n_test_scored": 30,
+        "methods": [
+          {
+            "method": "evidence",
+            "n_scored": 30,
+            "macro_f1": 0.9433,
+            "micro_f1": 0.9474,
+            "exact_joint_match": 0.9,
+            "mean_jaccard": 0.9,
+            "abstention_rate": 0.0,
+            "n_abstained_with_signal": 0,
+            "empirical_pending_rate": 0.2,
+            "split_label_errors": [],
+            "label_f1": {
+              "时段": 0.9091,
+              "对象": 1.0,
+              "地点": 0.9412,
+              "语言": 0.9231
+            },
+            "label_support": {
+              "时段": 5,
+              "对象": 8,
+              "地点": 8,
+              "语言": 6
+            },
+            "prevalence_abs_error": {
+              "时段": 0.0328,
+              "对象": 0.0,
+              "地点": 0.0328,
+              "语言": 0.0328
+            },
+            "sum_of_marginal_columns": 1.2131,
+            "truth_sum_of_marginal_columns": 1.1148,
+            "abstained_sessions": [],
+            "joint_set_distribution": {
+              "(无主题)": 0.2951,
+              "地点|时段": 0.1366,
+              "地点": 0.1311,
+              "语言": 0.0656,
+              "对象|语言": 0.1366,
+              "对象|时段": 0.0911,
+              "对象": 0.0984,
+              "地点|语言": 0.0455
+            }
+          },
+          {
+            "method": "legacy_keyword",
+            "n_scored": 30,
+            "macro_f1": 0.9433,
+            "micro_f1": 0.9474,
+            "exact_joint_match": 0.9,
+            "mean_jaccard": 0.9,
+            "abstention_rate": 0.0,
+            "n_abstained_with_signal": 0,
+            "empirical_pending_rate": 0.2,
+            "split_label_errors": [],
+            "label_f1": {
+              "时段": 0.9091,
+              "对象": 1.0,
+              "地点": 0.9412,
+              "语言": 0.9231
+            },
+            "label_support": {
+              "时段": 5,
+              "对象": 8,
+              "地点": 8,
+              "语言": 6
+            },
+            "prevalence_abs_error": {
+              "时段": 0.0328,
+              "对象": 0.0,
+              "地点": 0.0328,
+              "语言": 0.0328
+            },
+            "sum_of_marginal_columns": 1.2131,
+            "truth_sum_of_marginal_columns": 1.1148,
+            "abstained_sessions": [
+              "1-12",
+              "1-42",
+              "1-57",
+              "2-12",
+              "2-42",
+              "2-57",
+              "3-12",
+              "3-42",
+              "3-57"
+            ],
+            "joint_set_distribution": {
+              "(无主题)": 0.2951,
+              "地点|时段": 0.1366,
+              "地点": 0.1311,
+              "语言": 0.0656,
+              "对象|语言": 0.1366,
+              "对象|时段": 0.0911,
+              "对象": 0.0984,
+              "地点|语言": 0.0455
+            }
+          },
+          {
+            "method": "full_keyword",
+            "n_scored": 30,
+            "macro_f1": 0.8834,
+            "micro_f1": 0.7778,
+            "exact_joint_match": 0.7,
+            "mean_jaccard": 0.7611,
+            "abstention_rate": 0.0,
+            "n_abstained_with_signal": 0,
+            "empirical_pending_rate": 0.2,
+            "split_label_errors": [],
+            "label_f1": {
+              "时段": 0.9091,
+              "对象": 0.8,
+              "地点": 0.9412,
+              "语言": null
+            },
+            "label_support": {
+              "时段": 5,
+              "对象": 8,
+              "地点": 8,
+              "语言": 6
+            },
+            "prevalence_abs_error": {
+              "时段": 0.0328,
+              "对象": 0.1439,
+              "地点": 0.0328,
+              "语言": 0.2477
+            },
+            "sum_of_marginal_columns": 1.0765,
+            "truth_sum_of_marginal_columns": 1.1148,
+            "abstained_sessions": [
+              "1-12",
+              "1-42",
+              "1-57",
+              "2-12",
+              "2-42",
+              "2-57",
+              "3-12",
+              "3-42",
+              "3-57"
+            ],
+            "joint_set_distribution": {
+              "(无主题)": 0.2951,
+              "地点|时段": 0.1366,
+              "地点": 0.1311,
+              "语言": 0.0656,
+              "对象|语言": 0.1366,
+              "对象|时段": 0.0911,
+              "对象": 0.0984,
+              "地点|语言": 0.0455
+            }
+          }
+        ]
+      },
+      {
+        "name": "household_holdout_v2",
+        "scope_note": "整户留出：排除 ['F002', 'F007', 'F012', 'F017', 'F022', 'F027', 'F032', 'F037', 'F042', 'F047', 'F052', 'F057']；仅用词典 v2 对应的第 [4, 5] 期；训练与测试家庭互不重叠。",
+        "n_train": 88,
+        "n_test_scored": 20,
+        "methods": [
+          {
+            "method": "evidence",
+            "n_scored": 20,
+            "macro_f1": 0.8752,
+            "micro_f1": 0.8889,
+            "exact_joint_match": 0.8,
+            "mean_jaccard": 0.825,
+            "abstention_rate": 0.0,
+            "n_abstained_with_signal": 0,
+            "empirical_pending_rate": 0.2,
+            "split_label_errors": [],
+            "label_f1": {
+              "对象": 1.0,
+              "地点": 0.6667,
+              "语言": 1.0,
+              "线上时段": 0.9091,
+              "现场时段": 0.8
+            },
+            "label_support": {
+              "对象": 3,
+              "地点": 4,
+              "语言": 4,
+              "线上时段": 5,
+              "现场时段": 2
+            },
+            "prevalence_abs_error": {
+              "对象": 0.0,
+              "地点": 0.1175,
+              "语言": 0.0,
+              "线上时段": 0.0492,
+              "现场时段": 0.0492
+            },
+            "sum_of_marginal_columns": 1.0956,
+            "truth_sum_of_marginal_columns": 1.1148,
+            "abstained_sessions": [],
+            "joint_set_distribution": {
+              "(无主题)": 0.2951,
+              "对象|线上时段": 0.1366,
+              "现场时段|语言": 0.1366,
+              "对象": 0.0492,
+              "线上时段": 0.0492,
+              "地点|线上时段": 0.1366,
+              "地点": 0.0984,
+              "语言": 0.0984
+            }
+          },
+          {
+            "method": "legacy_keyword",
+            "n_scored": 20,
+            "macro_f1": 0.8889,
+            "micro_f1": 0.6667,
+            "exact_joint_match": 0.6,
+            "mean_jaccard": 0.725,
+            "abstention_rate": 0.45,
+            "n_abstained_with_signal": 9,
+            "empirical_pending_rate": 0.2,
+            "split_label_errors": [],
+            "label_f1": {
+              "对象": 1.0,
+              "地点": 0.6667,
+              "语言": 1.0,
+              "线上时段": null,
+              "现场时段": null
+            },
+            "label_support": {
+              "对象": 3,
+              "地点": 4,
+              "语言": 4,
+              "线上时段": 5,
+              "现场时段": 2
+            },
+            "prevalence_abs_error": {
+              "对象": 0.0,
+              "地点": 0.1175,
+              "语言": 0.0,
+              "线上时段": 0.3224,
+              "现场时段": 0.1366
+            },
+            "sum_of_marginal_columns": 0.5383,
+            "truth_sum_of_marginal_columns": 1.1148,
+            "abstained_sessions": [
+              "4-12",
+              "4-17",
+              "4-2",
+              "4-37",
+              "4-42",
+              "4-47",
+              "4-57",
+              "4-7",
+              "5-12",
+              "5-17",
+              "5-2",
+              "5-42",
+              "5-47",
+              "5-57",
+              "5-7"
+            ],
+            "joint_set_distribution": {
+              "(无主题)": 0.2951,
+              "对象|线上时段": 0.1366,
+              "现场时段|语言": 0.1366,
+              "对象": 0.0492,
+              "线上时段": 0.0492,
+              "地点|线上时段": 0.1366,
+              "地点": 0.0984,
+              "语言": 0.0984
+            }
+          },
+          {
+            "method": "full_keyword",
+            "n_scored": 20,
+            "macro_f1": 0.6667,
+            "micro_f1": 0.4706,
+            "exact_joint_match": 0.55,
+            "mean_jaccard": 0.5667,
+            "abstention_rate": 0.0,
+            "n_abstained_with_signal": 0,
+            "empirical_pending_rate": 0.2,
+            "split_label_errors": [],
+            "label_f1": {
+              "对象": null,
+              "地点": 0.6667,
+              "语言": 1.0,
+              "线上时段": null,
+              "现场时段": 0.3333
+            },
+            "label_support": {
+              "对象": 3,
+              "地点": 4,
+              "语言": 4,
+              "线上时段": 5,
+              "现场时段": 2
+            },
+            "prevalence_abs_error": {
+              "对象": 0.1858,
+              "地点": 0.1175,
+              "语言": 0.0,
+              "线上时段": 0.3224,
+              "现场时段": 0.4699
+            },
+            "sum_of_marginal_columns": 0.959,
+            "truth_sum_of_marginal_columns": 1.1148,
+            "abstained_sessions": [
+              "4-12",
+              "4-42",
+              "4-57",
+              "5-12",
+              "5-42",
+              "5-57"
+            ],
+            "joint_set_distribution": {
+              "(无主题)": 0.2951,
+              "对象|线上时段": 0.1366,
+              "现场时段|语言": 0.1366,
+              "对象": 0.0492,
+              "线上时段": 0.0492,
+              "地点|线上时段": 0.1366,
+              "地点": 0.0984,
+              "语言": 0.0984
+            }
+          }
+        ]
+      },
+      {
+        "name": "period_holdout_cross_taxonomy",
+        "scope_note": "整期留出：训练仅第 [1, 2, 3] 期（并排除留出家庭），测试为整期留出的第 [4, 5] 期全部已同意会话；训练中不存在 v2 词典复核事实，跨版主题必须按 bridges 规则处理或弃权。",
+        "n_train": 132,
+        "n_test_scored": 76,
+        "methods": [
+          {
+            "method": "evidence",
+            "n_scored": 76,
+            "macro_f1": 0.0,
+            "micro_f1": null,
+            "exact_joint_match": 0.3158,
+            "mean_jaccard": 0.3158,
+            "abstention_rate": 0.7632,
+            "n_abstained_with_signal": 58,
+            "empirical_pending_rate": 0.1579,
+            "split_label_errors": [],
+            "label_f1": {
+              "对象": null,
+              "地点": null,
+              "语言": null,
+              "线上时段": null,
+              "现场时段": null
+            },
+            "label_support": {
+              "对象": 11,
+              "地点": 15,
+              "语言": 19,
+              "线上时段": 14,
+              "现场时段": 17
+            },
+            "prevalence_abs_error": {
+              "对象": 0.1713,
+              "地点": 0.2212,
+              "语言": 0.2809,
+              "线上时段": 0.2282,
+              "现场时段": 0.2899
+            },
+            "sum_of_marginal_columns": 0.0,
+            "truth_sum_of_marginal_columns": 1.1914,
+            "abstained_sessions": [
+              "4-1",
+              "4-11",
+              "4-12",
+              "4-13",
+              "4-14",
+              "4-17",
+              "4-19",
+              "4-2",
+              "4-21",
+              "4-22",
+              "4-23",
+              "4-26",
+              "4-28",
+              "4-29",
+              "4-3",
+              "4-31",
+              "4-33",
+              "4-34",
+              "4-37",
+              "4-38",
+              "4-39",
+              "4-4",
+              "4-41",
+              "4-42",
+              "4-43",
+              "4-44",
+              "4-46",
+              "4-47",
+              "4-49",
+              "4-51",
+              "4-52",
+              "4-53",
+              "4-57",
+              "4-58",
+              "4-59",
+              "4-6",
+              "4-61",
+              "4-7",
+              "5-1",
+              "5-11",
+              "5-12",
+              "5-13",
+              "5-14",
+              "5-17",
+              "5-19",
+              "5-2",
+              "5-21",
+              "5-22",
+              "5-23",
+              "5-26",
+              "5-28",
+              "5-29",
+              "5-3",
+              "5-31",
+              "5-33",
+              "5-34",
+              "5-37",
+              "5-38",
+              "5-39",
+              "5-4",
+              "5-41",
+              "5-42",
+              "5-43",
+              "5-44",
+              "5-46",
+              "5-47",
+              "5-49",
+              "5-51",
+              "5-52",
+              "5-53",
+              "5-57",
+              "5-58",
+              "5-59",
+              "5-6",
+              "5-61",
+              "5-7"
+            ],
+            "joint_set_distribution": {
+              "语言": 0.1422,
+              "现场时段|线上时段": 0.052,
+              "(无主题)": 0.2247,
+              "地点": 0.0999,
+              "现场时段": 0.0298,
+              "对象|线上时段": 0.0693,
+              "线上时段": 0.0374,
+              "现场时段|语言": 0.0867,
+              "对象": 0.0499,
+              "地点|现场时段": 0.0693,
+              "对象|现场时段": 0.052,
+              "线上时段|语言": 0.0347,
+              "地点|线上时段": 0.0347,
+              "地点|语言": 0.0173
+            }
+          },
+          {
+            "method": "legacy_keyword",
+            "n_scored": 76,
+            "macro_f1": 0.8551,
+            "micro_f1": 0.6435,
+            "exact_joint_match": 0.5395,
+            "mean_jaccard": 0.6579,
+            "abstention_rate": 0.4342,
+            "n_abstained_with_signal": 33,
+            "empirical_pending_rate": 0.1579,
+            "split_label_errors": [],
+            "label_f1": {
+              "对象": 0.9565,
+              "地点": 0.6087,
+              "语言": 1.0,
+              "线上时段": null,
+              "现场时段": null
+            },
+            "label_support": {
+              "对象": 11,
+              "地点": 15,
+              "语言": 19,
+              "线上时段": 14,
+              "现场时段": 17
+            },
+            "prevalence_abs_error": {
+              "对象": 0.0125,
+              "地点": 0.1068,
+              "语言": 0.0,
+              "线上时段": 0.2282,
+              "现场时段": 0.2899
+            },
+            "sum_of_marginal_columns": 0.5791,
+            "truth_sum_of_marginal_columns": 1.1914,
+            "abstained_sessions": [
+              "4-11",
+              "4-12",
+              "4-14",
+              "4-17",
+              "4-19",
+              "4-2",
+              "4-21",
+              "4-23",
+              "4-26",
+              "4-28",
+              "4-29",
+              "4-3",
+              "4-33",
+              "4-37",
+              "4-38",
+              "4-39",
+              "4-41",
+              "4-42",
+              "4-44",
+              "4-46",
+              "4-47",
+              "4-51",
+              "4-53",
+              "4-57",
+              "4-59",
+              "4-6",
+              "4-7",
+              "5-11",
+              "5-12",
+              "5-14",
+              "5-17",
+              "5-2",
+              "5-21",
+              "5-23",
+              "5-26",
+              "5-29",
+              "5-3",
+              "5-33",
+              "5-39",
+              "5-41",
+              "5-42",
+              "5-44",
+              "5-46",
+              "5-47",
+              "5-49",
+              "5-51",
+              "5-53",
+              "5-57",
+              "5-59",
+              "5-6",
+              "5-7"
+            ],
+            "joint_set_distribution": {
+              "语言": 0.1422,
+              "现场时段|线上时段": 0.052,
+              "(无主题)": 0.2247,
+              "地点": 0.0999,
+              "现场时段": 0.0298,
+              "对象|线上时段": 0.0693,
+              "线上时段": 0.0374,
+              "现场时段|语言": 0.0867,
+              "对象": 0.0499,
+              "地点|现场时段": 0.0693,
+              "对象|现场时段": 0.052,
+              "线上时段|语言": 0.0347,
+              "地点|线上时段": 0.0347,
+              "地点|语言": 0.0173
+            }
+          },
+          {
+            "method": "full_keyword",
+            "n_scored": 76,
+            "macro_f1": 0.5663,
+            "micro_f1": 0.313,
+            "exact_joint_match": 0.3947,
+            "mean_jaccard": 0.4605,
+            "abstention_rate": 0.4342,
+            "n_abstained_with_signal": 33,
+            "empirical_pending_rate": 0.1579,
+            "split_label_errors": [],
+            "label_f1": {
+              "对象": 0.5238,
+              "地点": 0.6087,
+              "语言": null,
+              "线上时段": null,
+              "现场时段": null
+            },
+            "label_support": {
+              "对象": 11,
+              "地点": 15,
+              "语言": 19,
+              "线上时段": 14,
+              "现场时段": 17
+            },
+            "prevalence_abs_error": {
+              "对象": 0.2933,
+              "地点": 0.1068,
+              "语言": 0.2809,
+              "线上时段": 0.2282,
+              "现场时段": 0.2899
+            },
+            "sum_of_marginal_columns": 0.5791,
+            "truth_sum_of_marginal_columns": 1.1914,
+            "abstained_sessions": [
+              "4-11",
+              "4-12",
+              "4-14",
+              "4-17",
+              "4-19",
+              "4-2",
+              "4-21",
+              "4-23",
+              "4-26",
+              "4-28",
+              "4-29",
+              "4-3",
+              "4-33",
+              "4-37",
+              "4-38",
+              "4-39",
+              "4-41",
+              "4-42",
+              "4-44",
+              "4-46",
+              "4-47",
+              "4-51",
+              "4-53",
+              "4-57",
+              "4-59",
+              "4-6",
+              "4-7",
+              "5-11",
+              "5-12",
+              "5-14",
+              "5-17",
+              "5-2",
+              "5-21",
+              "5-23",
+              "5-26",
+              "5-29",
+              "5-3",
+              "5-33",
+              "5-39",
+              "5-41",
+              "5-42",
+              "5-44",
+              "5-46",
+              "5-47",
+              "5-49",
+              "5-51",
+              "5-53",
+              "5-57",
+              "5-59",
+              "5-6",
+              "5-7"
+            ],
+            "joint_set_distribution": {
+              "语言": 0.1422,
+              "现场时段|线上时段": 0.052,
+              "(无主题)": 0.2247,
+              "地点": 0.0999,
+              "现场时段": 0.0298,
+              "对象|线上时段": 0.0693,
+              "线上时段": 0.0374,
+              "现场时段|语言": 0.0867,
+              "对象": 0.0499,
+              "地点|现场时段": 0.0693,
+              "对象|现场时段": 0.052,
+              "线上时段|语言": 0.0347,
+              "地点|线上时段": 0.0347,
+              "地点|语言": 0.0173
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "holdout_summary": {
+    "household_holdout_v1|evidence": {
+      "macro_f1": 0.9433,
+      "joint_exact_match": 0.9,
+      "mean_jaccard": 0.9,
+      "abstention_rate_with_signal": 0.0,
+      "empirical_pending_rate": 0.2,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.0328
+    },
+    "household_holdout_v1|legacy_keyword": {
+      "macro_f1": 0.9433,
+      "joint_exact_match": 0.9,
+      "mean_jaccard": 0.9,
+      "abstention_rate_with_signal": 0.0,
+      "empirical_pending_rate": 0.2,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.0328
+    },
+    "household_holdout_v1|full_keyword": {
+      "macro_f1": 0.8834,
+      "joint_exact_match": 0.7,
+      "mean_jaccard": 0.7611,
+      "abstention_rate_with_signal": 0.0,
+      "empirical_pending_rate": 0.2,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.2477
+    },
+    "household_holdout_v2|evidence": {
+      "macro_f1": 0.8752,
+      "joint_exact_match": 0.8,
+      "mean_jaccard": 0.825,
+      "abstention_rate_with_signal": 0.0,
+      "empirical_pending_rate": 0.2,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.1175
+    },
+    "household_holdout_v2|legacy_keyword": {
+      "macro_f1": 0.8889,
+      "joint_exact_match": 0.6,
+      "mean_jaccard": 0.725,
+      "abstention_rate_with_signal": 0.45,
+      "empirical_pending_rate": 0.2,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.3224
+    },
+    "household_holdout_v2|full_keyword": {
+      "macro_f1": 0.6667,
+      "joint_exact_match": 0.55,
+      "mean_jaccard": 0.5667,
+      "abstention_rate_with_signal": 0.0,
+      "empirical_pending_rate": 0.2,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.4699
+    },
+    "period_holdout_cross_taxonomy|evidence": {
+      "macro_f1": 0.0,
+      "joint_exact_match": 0.3158,
+      "mean_jaccard": 0.3158,
+      "abstention_rate_with_signal": 0.7632,
+      "empirical_pending_rate": 0.1579,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.2899
+    },
+    "period_holdout_cross_taxonomy|legacy_keyword": {
+      "macro_f1": 0.8551,
+      "joint_exact_match": 0.5395,
+      "mean_jaccard": 0.6579,
+      "abstention_rate_with_signal": 0.4342,
+      "empirical_pending_rate": 0.1579,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.2899
+    },
+    "period_holdout_cross_taxonomy|full_keyword": {
+      "macro_f1": 0.5663,
+      "joint_exact_match": 0.3947,
+      "mean_jaccard": 0.4605,
+      "abstention_rate_with_signal": 0.4342,
+      "empirical_pending_rate": 0.1579,
+      "hard_split_errors": 0,
+      "max_prevalence_abs_error": 0.2933
+    },
+    "_读法": {
+      "period_holdout_cross_taxonomy|evidence": "整期留出时拟采用方式在无 v2 复核事实下整体弃权，故 macro_f1=0 且弃权率高；这是诚实行为而非失效——对照基准硬给标签的假阳性与硬拆错误更高。同版泛化能力请看 household_holdout_v1/v2 两行。",
+      "hard_split_errors": "一份旧标签被复制到一对多两个子主题的次数（应为 0 才合规）。",
+      "abstention_rate_with_signal": "有困难信号但证据不足而弃权的比例；无主题会话不计入。"
+    }
+  },
+  "editorial_decision": {
+    "decision_period": 5,
+    "active_themes": [
+      "对象",
+      "语言",
+      "线上时段",
+      "现场时段"
+    ],
+    "budget": 8,
+    "floors": {
+      "北": 0.19,
+      "南": 0.22,
+      "西": 0.16
+    },
+    "site_frame_weights": {
+      "北": 25.2,
+      "南": 37.8,
+      "西": 50.0
+    },
+    "combos": [
+      {
+        "materials": [
+          "语言提示"
+        ],
+        "cost": 3,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.2857,
+          "西": 0.2
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.381,
+          "西": 0.35
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "语言提示": 0.0
+        }
+      },
+      {
+        "materials": [
+          "短时段导引"
+        ],
+        "cost": 4,
+        "within_budget": true,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0476,
+          "西": 0.35
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.1905,
+          "西": 0.5
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1724
+        },
+        "floor_gap_optimistic": {
+          "南": 0.0295
+        },
+        "blocking_reasons": [
+          "南 站点即使按最乐观解释仍差 0.029 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引": 0.0
+        }
+      },
+      {
+        "materials": [
+          "联系人说明"
+        ],
+        "cost": 4,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0952,
+          "西": 0.2
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.2381,
+          "西": 0.35
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1248
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.125，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明": 0.0
+        }
+      },
+      {
+        "materials": [
+          "远程入口"
+        ],
+        "cost": 4,
+        "within_budget": true,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0,
+          "西": 0.3
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.1429,
+          "西": 0.5
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.22
+        },
+        "floor_gap_optimistic": {
+          "南": 0.0771
+        },
+        "blocking_reasons": [
+          "南 站点即使按最乐观解释仍差 0.077 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "远程入口": 0.0
+        }
+      },
+      {
+        "materials": [
+          "办理组合卡"
+        ],
+        "cost": 5,
+        "within_budget": true,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0,
+          "西": 0.1
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.0952,
+          "西": 0.25
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.22,
+          "西": 0.06
+        },
+        "floor_gap_optimistic": {
+          "南": 0.1248
+        },
+        "blocking_reasons": [
+          "南 站点即使按最乐观解释仍差 0.125 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "西 站点保守口径差 0.060，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "办理组合卡": 0.0
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "语言提示"
+        ],
+        "cost": 7,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.3333,
+          "西": 0.5
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.4762,
+          "西": 0.65
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/语言提示": 0.06648936170212766
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "语言提示"
+        ],
+        "cost": 7,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.381,
+          "西": 0.4
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.5238,
+          "西": 0.55
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/语言提示": 0.0
+        }
+      },
+      {
+        "materials": [
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 7,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.2857,
+          "西": 0.45
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.4286,
+          "西": 0.6
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "语言提示/远程入口": 0.07507507507507506
+        }
+      },
+      {
+        "materials": [
+          "办理组合卡",
+          "语言提示"
+        ],
+        "cost": 8,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.2857,
+          "西": 0.3
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.381,
+          "西": 0.45
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "办理组合卡/语言提示": 0.0
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明"
+        ],
+        "cost": 8,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.1429,
+          "西": 0.45
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.3333,
+          "西": 0.6
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.0771
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.077，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明": 0.17921146953405018
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "远程入口"
+        ],
+        "cost": 8,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0476,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.2381,
+          "西": 0.75
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1724
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.172，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/远程入口": 0.1706484641638225
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "远程入口"
+        ],
+        "cost": 8,
+        "within_budget": true,
+        "decision": "条件性可能",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0952,
+          "西": 0.4
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.2857,
+          "西": 0.6
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1248
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.125，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/远程入口": 0.211864406779661
+        }
+      },
+      {
+        "materials": [
+          "办理组合卡",
+          "远程入口"
+        ],
+        "cost": 9,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0,
+          "西": 0.4
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.1429,
+          "西": 0.6
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.22
+        },
+        "floor_gap_optimistic": {
+          "南": 0.0771
+        },
+        "blocking_reasons": [
+          "费用 9 超过预算 8",
+          "南 站点即使按最乐观解释仍差 0.077 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "办理组合卡/远程入口": 0.0
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "办理组合卡"
+        ],
+        "cost": 9,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0476,
+          "西": 0.35
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.1905,
+          "西": 0.5
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1724
+        },
+        "floor_gap_optimistic": {
+          "南": 0.0295
+        },
+        "blocking_reasons": [
+          "费用 9 超过预算 8",
+          "南 站点即使按最乐观解释仍差 0.029 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/办理组合卡": 0.25906735751295334
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "办理组合卡"
+        ],
+        "cost": 9,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0952,
+          "西": 0.2
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.2381,
+          "西": 0.35
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1248
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 9 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.125，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/办理组合卡": 0.3676470588235294
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "语言提示"
+        ],
+        "cost": 11,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.4286,
+          "西": 0.6
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.619,
+          "西": 0.75
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 11 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/语言提示": 0.16233766233766236
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 11,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.3333,
+          "西": 0.65
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.5238,
+          "西": 0.8
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 11 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/语言提示/远程入口": 0.221729490022173
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 11,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.381,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.5714,
+          "西": 0.7
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 11 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/语言提示/远程入口": 0.17899761336515513
+        }
+      },
+      {
+        "materials": [
+          "办理组合卡",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 12,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.2857,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.4286,
+          "西": 0.7
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 12 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "办理组合卡/语言提示/远程入口": 0.06527415143603134
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "办理组合卡",
+          "语言提示"
+        ],
+        "cost": 12,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.3333,
+          "西": 0.5
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.4762,
+          "西": 0.65
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 12 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/办理组合卡/语言提示": 0.19946808510638298
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "远程入口"
+        ],
+        "cost": 12,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.1429,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.381,
+          "西": 0.75
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.0771
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 12 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.077，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.1429
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/远程入口": 0.4559270516717324
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "办理组合卡",
+          "语言提示"
+        ],
+        "cost": 12,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.381,
+          "西": 0.4
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.5238,
+          "西": 0.55
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 12 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/办理组合卡/语言提示": 0.1453488372093023
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "办理组合卡",
+          "远程入口"
+        ],
+        "cost": 13,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0476,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.2381,
+          "西": 0.75
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1724
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 13 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.172，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/办理组合卡/远程入口": 0.341296928327645
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "办理组合卡"
+        ],
+        "cost": 13,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.1429,
+          "西": 0.45
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.3333,
+          "西": 0.6
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.0771
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 13 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.077，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/办理组合卡": 0.17921146953405018
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "办理组合卡",
+          "远程入口"
+        ],
+        "cost": 13,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.0952,
+          "西": 0.4
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.2857,
+          "西": 0.6
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.1248
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 13 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.125，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/办理组合卡/远程入口": 0.423728813559322
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 15,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.4286,
+          "西": 0.65
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.6667,
+          "西": 0.8
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 15 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.1429
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/语言提示/远程入口": 0.4106776180698153
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "办理组合卡",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 16,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.3333,
+          "西": 0.65
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4286,
+          "南": 0.5238,
+          "西": 0.8
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 16 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/办理组合卡/语言提示/远程入口": 0.33259423503325947
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "办理组合卡",
+          "语言提示"
+        ],
+        "cost": 16,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.4286,
+          "西": 0.6
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.619,
+          "西": 0.75
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 16 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/办理组合卡/语言提示": 0.16233766233766236
+        }
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "办理组合卡",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 16,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.381,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.5714,
+          "西": 0.7
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 16 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.0952
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "联系人说明/办理组合卡/语言提示/远程入口": 0.2983293556085919
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "办理组合卡",
+          "远程入口"
+        ],
+        "cost": 17,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.1429,
+          "西": 0.55
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.381,
+          "西": 0.75
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19,
+          "南": 0.0771
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 17 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.077，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.1429
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.05
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/办理组合卡/远程入口": 0.4559270516717324
+        }
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明",
+          "办理组合卡",
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 20,
+        "within_budget": false,
+        "decision": "不满足",
+        "conservative_site_coverage": {
+          "北": 0.0,
+          "南": 0.4286,
+          "西": 0.65
+        },
+        "optimistic_site_coverage": {
+          "北": 0.4762,
+          "南": 0.6667,
+          "西": 0.8
+        },
+        "pivotal_households": [],
+        "floor_gap_conservative": {
+          "北": 0.19
+        },
+        "floor_gap_optimistic": {},
+        "blocking_reasons": [
+          "费用 20 超过预算 8",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ],
+        "uncertainty_breakdown": {
+          "北": {
+            "未回访": 0.3333,
+            "未同意": 0.0952,
+            "未决标签": 0.0476
+          },
+          "南": {
+            "未回访": 0.0,
+            "未同意": 0.0952,
+            "未决标签": 0.1429
+          },
+          "西": {
+            "未回访": 0.0,
+            "未同意": 0.15,
+            "未决标签": 0.0
+          }
+        },
+        "duplicate_cover_share": {
+          "短时段导引/联系人说明/办理组合卡/语言提示/远程入口": 0.4106776180698153
+        }
+      }
+    ],
+    "overlap_matrix": {
+      "短时段导引": {
+        "短时段导引": 19.3,
+        "联系人说明": 5.0,
+        "办理组合卡": 5.0,
+        "语言提示": 2.5,
+        "远程入口": 5.0
+      },
+      "联系人说明": {
+        "短时段导引": 5.0,
+        "联系人说明": 13.6,
+        "办理组合卡": 5.0,
+        "语言提示": 0,
+        "远程入口": 5.0
+      },
+      "办理组合卡": {
+        "短时段导引": 5.0,
+        "联系人说明": 5.0,
+        "办理组合卡": 5.0,
+        "语言提示": 0,
+        "远程入口": 0
+      },
+      "语言提示": {
+        "短时段导引": 2.5,
+        "联系人说明": 0,
+        "办理组合卡": 0,
+        "语言提示": 20.8,
+        "远程入口": 2.5
+      },
+      "远程入口": {
+        "短时段导引": 5.0,
+        "联系人说明": 5.0,
+        "办理组合卡": 0,
+        "语言提示": 2.5,
+        "远程入口": 15.0
+      }
+    }
+  },
+  "scheduling": {
+    "period": 5,
+    "ranking": [
+      {
+        "session": "5-14",
+        "household": "F014",
+        "site": "西",
+        "language": "普通",
+        "unresolved_themes": [
+          "线上时段"
+        ],
+        "decision_value": 0.05,
+        "pivotal_combos": [
+          "远程入口"
+        ],
+        "reason": "未决主题可翻转 远程入口"
+      },
+      {
+        "session": "5-12",
+        "household": "F012",
+        "site": "北",
+        "language": "双语",
+        "unresolved_themes": [
+          "对象"
+        ],
+        "decision_value": 0.0476,
+        "pivotal_combos": [
+          "联系人说明"
+        ],
+        "reason": "未决主题可翻转 联系人说明"
+      },
+      {
+        "session": "5-28",
+        "household": "F028",
+        "site": "南",
+        "language": "普通",
+        "unresolved_themes": [
+          "对象"
+        ],
+        "decision_value": 0.0476,
+        "pivotal_combos": [
+          "联系人说明"
+        ],
+        "reason": "未决主题可翻转 联系人说明"
+      },
+      {
+        "session": "5-49",
+        "household": "F049",
+        "site": "南",
+        "language": "普通",
+        "unresolved_themes": [
+          "线上时段"
+        ],
+        "decision_value": 0.0476,
+        "pivotal_combos": [
+          "远程入口"
+        ],
+        "reason": "未决主题可翻转 远程入口"
+      },
+      {
+        "session": "5-7",
+        "household": "F007",
+        "site": "南",
+        "language": "普通",
+        "unresolved_themes": [
+          "现场时段"
+        ],
+        "decision_value": 0.0476,
+        "pivotal_combos": [
+          "短时段导引"
+        ],
+        "reason": "未决主题可翻转 短时段导引"
+      }
+    ],
+    "assigned_sessions": [
+      "5-14",
+      "5-28",
+      "5-49",
+      "5-7"
+    ],
+    "assigned_reviewers": [
+      {
+        "session": "5-14",
+        "site": "西",
+        "language": "普通"
+      },
+      {
+        "session": "5-28",
+        "site": "南",
+        "language": "普通"
+      },
+      {
+        "session": "5-49",
+        "site": "南",
+        "language": "普通"
+      },
+      {
+        "session": "5-7",
+        "site": "南",
+        "language": "普通"
+      }
+    ],
+    "capacity_after_reserve": [
+      {
+        "site": "北",
+        "day": 20,
+        "reserved": [
+          "5-12"
+        ],
+        "reviewer_slots_left": {
+          "T1": 4,
+          "T3": 1
+        },
+        "bilingual_reviewers": [
+          "T3"
+        ]
+      },
+      {
+        "site": "南",
+        "day": 20,
+        "reserved": [],
+        "reviewer_slots_left": {
+          "T2": 0
+        },
+        "bilingual_reviewers": [
+          "T2"
+        ]
+      },
+      {
+        "site": "西",
+        "day": 21,
+        "reserved": [],
+        "reviewer_slots_left": {
+          "T3": 1,
+          "T4": 3
+        },
+        "bilingual_reviewers": [
+          "T3",
+          "T4"
+        ]
+      }
+    ],
+    "capacity_blockers": [
+      "5-12：已约定的双语复核在 北 站点 day20 凑不齐两名双语复核人；名额保留，不安排新会话顶替"
+    ]
+  },
+  "decision_summary": {
+    "可正式采用": [],
+    "尚不能正式选择_条件性可能": [
+      {
+        "materials": [
+          "语言提示"
+        ],
+        "cost": 3,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "联系人说明"
+        ],
+        "cost": 4,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.125，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "语言提示"
+        ],
+        "cost": 7,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "语言提示"
+        ],
+        "cost": 7,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "语言提示",
+          "远程入口"
+        ],
+        "cost": 7,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "办理组合卡",
+          "语言提示"
+        ],
+        "cost": 8,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "联系人说明"
+        ],
+        "cost": 8,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.077，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "短时段导引",
+          "远程入口"
+        ],
+        "cost": 8,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.172，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "联系人说明",
+          "远程入口"
+        ],
+        "cost": 8,
+        "blocking_reasons": [
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "南 站点保守口径差 0.125，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      }
+    ],
+    "预算内但不满足最低覆盖": [
+      {
+        "materials": [
+          "短时段导引"
+        ],
+        "blocking_reasons": [
+          "南 站点即使按最乐观解释仍差 0.029 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "远程入口"
+        ],
+        "blocking_reasons": [
+          "南 站点即使按最乐观解释仍差 0.077 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      },
+      {
+        "materials": [
+          "办理组合卡"
+        ],
+        "blocking_reasons": [
+          "南 站点即使按最乐观解释仍差 0.125 才到最低覆盖 0.22",
+          "北 站点保守口径差 0.190，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认",
+          "西 站点保守口径差 0.060，乐观口径可达标——结论取决于未决/缺失回应，不可正式确认"
+        ]
+      }
+    ],
+    "超预算组合示例": [
+      [
+        "办理组合卡",
+        "远程入口"
+      ],
+      [
+        "短时段导引",
+        "办理组合卡"
+      ],
+      [
+        "联系人说明",
+        "办理组合卡"
+      ]
+    ],
+    "给策划者的结论": "当前没有任何预算内组合能在保守（仅已确认事实）口径下同时满足三站点最低覆盖；北站点的乐观空间主要来自未回访/未同意家庭而非可复核的未决标签，因此再排复核也无法把条件性组合升级为可正式采用，先补回访与同意才可能改变结论。",
+    "下一批复核可定稿会话": [
+      "5-14",
+      "5-28",
+      "5-49",
+      "5-7"
+    ],
+    "排班约束": [
+      "5-12：已约定的双语复核在 北 站点 day20 凑不齐两名双语复核人；名额保留，不安排新会话顶替"
+    ]
+  }
+}
